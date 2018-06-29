@@ -1,0 +1,26 @@
+/*
+* @Author: msi-pc
+* @Date:   2018-05-22 17:30:29
+* @Last Modified by:   msi-pc
+* @Last Modified time: 2018-05-22 17:42:44
+*/
+@import url(base.css);
+
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: blcok;
+}
+
+/* 头部开始 */
+.hidder{
+	width: 750px;
+	height: 150px;
+	background-color: red;
+}
+/* 头部结束 */

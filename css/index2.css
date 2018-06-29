@@ -1,0 +1,429 @@
+/*
+* @Author: msi-pc
+* @Date:   2018-05-22 17:30:29
+* @Last Modified by:   msi-pc
+* @Last Modified time: 2018-05-23 10:36:59
+*/
+@import url(base.css);
+
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: blcok;
+}
+body{
+	background-color: #fff;
+	width: 7.50rem;
+	height: auto;
+}
+/* 头部开始 */
+
+.hidder{
+	width: 7.50rem;
+	height: 2.04rem;
+	padding-top: 0.50rem;
+	box-sizing: border-box;
+	margin: 0 auto;
+	position: relative;
+	/* top: 0;
+	left: 0; */
+	background: url('../img/my-rm-p03241.jpg') no-repeat  center;
+}
+.hidder .top{
+	width: 7.02rem;
+	height:0.26rem;
+	margin: 0 auto;
+	padding: 0 0.09rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+.hidder .top .box{
+	width: 0.26rem;
+	height:0.26rem;
+}
+.hidder .top .box i{
+	display: block;
+	font-size: 0.24rem;
+	color: #fff;
+	line-height: 0.26rem;
+}
+.hidder .top .box1{
+	width: 0.70rem;
+	height:0.26rem;
+	display: flex;
+	justify-content: space-between;
+}
+.hidder .top .box1 .bo{
+	width: 0.26rem;
+	height:0.26rem;
+	border-radius: 50%;
+	box-sizing: border-box;
+	border: 1px solid #fff;
+	font-size: 0.14rem;
+	text-align: center;
+	line-height: 0.26rem;
+	color: #fff;
+}
+.hidder .top .box1 ul{
+	width: 0.10rem;
+	height:100%;
+}
+.hidder .top .box1 ul a{
+	display: block;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.hidder .top .box1 ul li{
+	width: 0.07rem;
+	height:0.07rem;
+	background-color: #fff;
+	border-radius: 50%;
+}
+.hidder .center{
+	width: 100%;
+	height: 0.54rem;
+	background: #fff;
+	margin-top: 0.74rem;
+}
+.hidder .bottom{
+	width: 0.88rem;
+	height:0.88rem;
+	background-color: blue;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-left:auto;
+
+	margin-right:auto;
+
+}
+.hidder .bottom img{
+	width: 0.88rem;
+	height: 0.88rem;
+}
+/* 头部结束 */
+
+/* 凉皮开始 */
+.weijia{
+	width: 7.02rem;
+	height: 1.62rem;
+	background-color:#fff;
+	margin: 0 auto;
+}
+.weijia .box{
+	width: 7.02rem;
+	height: 0.54rem;
+}
+.weijia .box1{
+	display: flex;
+	justify-content: center;
+}
+.weijia .pinpai{
+	width: .45rem;
+	height: 0.26rem;
+	background-color: #FFFF7F;
+	margin-top: 0.12rem;
+	color:#E0AD24;
+	font-size: 0.16rem;
+	text-align: center;
+	line-height: 0.26rem;
+}
+.weijia .box1 p{
+	font-size: 0.28rem;
+	color: #000;
+	line-height: 0.54rem;
+	text-align: center;
+}
+.weijia .box2{
+	width: 7.02rem;
+	height: 0.54rem;
+	padding-left: 2.03rem;
+	box-sizing: border-box;
+	/* display: flex;
+	justify-content:center; */
+}
+.weijia .box2 .bb{
+	width: 100%;
+	height: 0.27rem;
+	display: flex;
+	align-items: center;
+}
+.weijia .box2 img{
+	width: 1.15rem;
+	height: 0.15rem;
+}
+.weijia .box2 span{
+	display: block;
+	font-size: 0.18rem;
+}
+.weijia .box2 p{
+	width: 100%;
+	height: 0.27rem;
+	display: block;
+	font-size: 0.18rem;
+	line-height: 0.27rem;
+}
+.weijia .box3{
+	width: auto;
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+}
+.weijia .box3 .dd{
+	width:0.45rem;
+	height: 0.24rem;
+	background-color: #B3F7C6;
+	/* margin-left: 2.03rem; */
+	font-size: 0.18rem;
+	line-height: 0.24rem;
+	text-align: center;
+	color: #23E150;
+}
+.weijia .box3 span{
+
+	display: block;
+	font-size: 0.18rem;
+	float: left;
+}
+/* 凉皮结束 */
+
+/* 点餐开始 */
+.diancan{
+	width: 7.02rem;
+	height: 1.44rem;
+		margin: 0 auto;
+}
+.diancan .top{
+	width: 7.02rem;
+	height: 0.41rem;
+	padding: 0 0.95rem;
+	box-sizing: border-box;
+	border-bottom: 1px solid #A8A8A8;
+}
+.diancan .top ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.diancan .top li a{
+	display: block;
+	font-size: 0.28rem ;
+	color: #7D7D7D;
+}
+.diancan .bottom{
+	width: 7.02rem;
+	height: 1.03rem;
+
+	display: flex;
+}
+.diancan .bottom span{
+	display: block;
+	font-size: 0.20rem ;
+	color: #7D7D7D;
+	line-height: 1.03rem;
+	margin-left: 2.03rem;
+
+}
+.diancan .bottom .tx{
+	margin-left: 2.03rem;
+	color: #000;
+}
+.diancan .bottom .tx2{
+	margin-left: 0.3rem;
+}
+/* 点餐结束 */
+/* 特色开始 */
+.tese{
+	width: 7.02rem;
+	height: auto;
+	background-color:#fff;
+	margin: 0 auto;
+}
+.tese .left{
+	width: 0.24rem;
+	height:12rem;
+	background-color: #F2F2F2;
+	float: left;
+}
+.tese .box{
+	width: 7.02rem;
+	height: auto;
+	margin: 0 auto;
+	float: left;
+}
+.tese .box .zuo{
+	width: 1.44rem;
+	height: 12.5rem;
+	background-color:#F2F2F2;
+	float: left;
+	box-sizing: border-box;
+	padding:0.30rem 0 0 0.16rem ;
+}
+.tese .box .zuo ul{
+	width: 1.28rem;
+	height: 3.82rem;
+	display: flex;
+	flex-direction:column;
+	justify-content: space-between;
+}
+.tese .box .zuo ul li{
+	font-size: 0.24rem;
+}
+.tese .box .zuo ul li a{
+	font-size: 0.24rem;
+	color:#0A0B0A;
+}
+.tese .box .you{
+	width: 5.58rem;
+	height: auto;
+	float: left;
+}
+.tese .box .you .hez{
+	width: 5.58rem;
+	height: 1.01rem;
+	margin-bottom: 0.65rem;
+	box-sizing: border-box;
+	padding-left: 0.14rem;
+}
+.tese .box .you .hez img{
+	width: 1.04rem;
+	height: 1.01rem;
+	margin-right: 0.10rem;
+	float: left;
+}
+.tese .box .you .hez .mo{
+	width: 3.60rem;
+	height: 1.01rem;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.tese .box .you .hez .mo .moo{
+	width: auto;
+	height: 0.2525rem;
+}
+.tese .box .you .hez .mo .moo1 span{
+	display: block;
+	font-size: 0.24rem;
+	color: #333;
+	font-weight: bold;
+	line-height: 0.2525rem;
+}
+.tese .box .you .hez .mo .moo2 span{
+	float: left;
+	line-height: 0.2525rem;
+	display: block;
+	font-size: 0.16rem;
+	color: #777777;
+	margin-right: 0.10rem;
+}
+.tese .box .you .hez .mo .moo3 .box{
+	width: 0.70rem;
+	height: 0.20rem;
+	border: 1px solid #FF0000;
+}
+.tese .box .you .hez .mo .moo3 span{
+	line-height: 0.20rem;
+	display: block;
+	font-size: 0.16rem;
+	text-align: center;
+	color: #E0E96D;
+}
+.tese .box .you .hez .mo .moo4 span{
+	line-height: 0.2525rem;
+	display: block;
+	font-size: 0.16rem;
+	color:red;
+}
+.tese .box .you .hez .mo1{
+	width: 0.7rem;
+	height: 1.01rem;
+	float: left;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+.tese .box .you .hez .mo1 i{
+	font-size: 0.30rem;
+	color: blue;
+}
+/* 特色结束 */
+.qian{
+	width: 7.50rem;
+	height: 0.25rem;
+	background-color:#FFFBB2;
+	position: fixed;
+	bottom: 0.98rem;
+	left: 0;
+}
+.qian span{
+	color: #000;
+	font-size: 0.20rem;
+	text-align: center;
+	line-height: 0.25rem;
+	display: block;
+}
+.biaoshi{
+	width: 7.50rem;
+	height: 0.98rem;
+	background-color:#C4D5F8;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	box-sizing: border-box;
+	padding-left: 0.24rem;
+}
+
+.biaoshi .left{
+	width: 1.27rem;
+	height: 0.98rem;
+	float: left;
+}
+.biaoshi .left img{
+	width: 1.27rem;
+	height: 0.98rem;
+}
+.biaoshi .center{
+	width: 1.57rem;
+	height: 0.98rem;
+	float: left;
+}
+.biaoshi .center p{
+	width: 1.57rem;
+	height: 0.49rem;
+}
+.biaoshi .center .tt{
+	color: #000;
+	font-size: 0.26rem;
+	line-height: 0.49rem;
+}
+.biaoshi .center .tt1{
+	font-size: 0.20rem;	
+	color: #000;
+	line-height: 0.49rem;
+}
+.biaoshi .right{
+	width: 2.09rem;
+	height: 0.98rem;
+	background: #CDA3E9;
+	float: right;
+}
+.biaoshi .right span{
+	display: block;
+	color: #5C4869;
+	font-size: 0.20rem;
+	text-align: center;
+	line-height:0.98rem; 
+}

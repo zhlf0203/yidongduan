@@ -1,0 +1,296 @@
+/*
+* @Author: msi-pc
+* @Date:   2018-05-27 11:30:29
+* @Last Modified by:   msi-pc
+* @Last Modified time: 2018-05-27 14:51:35
+*/
+@import url(base.css);
+
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 3.48rem;
+	background: red;
+	overflow: hidden;
+	background: url('../img/3_01_02.png') no-repeat center/cover;
+}
+header div{
+	width: 7.02rem;
+	height: 0.27rem;
+	margin: 0.25rem auto 0;
+	display: flex;
+	padding-right: 0.13rem;
+	box-sizing: border-box; 
+	justify-content: space-between;
+}
+header div a{
+	width: 0.20rem;
+	height: 0.27rem;
+	font-size: 0.20rem;
+	display: block;
+	color: #fff;
+	line-height: 0.27rem;
+}
+/* 头部结束 */
+.beijing{
+	width: 7.50rem;
+	height: 2.80rem;
+	background: #FEFCFC;
+}
+.beijing1{
+	width: 7.02rem;
+	height: 2.62rem;
+	background: #FEFCFC;
+	padding-left: 0.16rem;
+	box-sizing: border-box;
+	margin: 0 auto ;
+}
+.wenxue{
+	width: 100%;
+	height: 0.44rem;
+	line-height: 0.44rem;
+	color: #000;
+	font-size: 0.30rem;
+}
+.beijing1 .box{
+	width: 100%;
+	height: 1.08rem;
+}
+.beijing1 .box .left{
+	width: 2.18rem;
+	height: 1.08rem;
+	float: left;
+}
+.beijing1 .box .left .tx{
+	/* display: block; */
+	height: 0.22rem;
+	margin-top: 0.24rem;
+	color: #737272;
+	font-size: 0.19rem;
+}
+.beijing1 .box .left span{
+	display: block;
+	height: 0.22rem;
+	margin-top: 0.28rem;
+	color: #E00B0B;
+	font-size: 0.22rem;
+}
+.beijing1 .box .right{
+	width: 1.97rem;
+	height: 0.62rem;
+	background: #EDCE6C;
+	float: right;
+	margin-right: 0.23rem;
+	margin-top: 0.27rem;
+	border-radius: 0.62rem;
+	box-shadow: 0 0 0.20rem 0.10rem #F7EED3;
+	box-sizing: border-box;
+	border: 0.01rem solid #FFFE4E;
+	font-size: 0.21rem;
+	text-align: center;
+	line-height: 0.62rem;
+	color: #F8FBFA;
+}
+.beijing1 .box .right a{
+	color: #F8FBFA;
+}
+.beijing1 .tx1{
+	width: 100%;
+	height: 1.10rem;
+	font-size: 0.20rem;
+	line-height: 0.5rem;
+	color: #6A6969;
+}
+.beijing:after{
+	content:"";
+  	display:block;
+  	width:  7.02rem;
+  	height: 0.03rem;
+  	background: #F5F4F4;
+  	margin: 0 auto;
+}
+
+/* 顾客评价 */
+.pingjia{
+	width: 100%;
+	height: auto;
+	background: #fff;
+}
+.pingjia1{
+	width: 7.02rem;
+	height: auto;
+	background: #fff;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+.pingjia1 .top{
+	width: 100%;
+	height:1.11rem;
+	padding: 0 0.16rem;
+	box-sizing: border-box;
+	border-bottom: 2px solid #F5F5F5;
+}
+.pingjia1 .top span {
+	display: block;
+	font-size: 0.25rem;
+	line-height: 1.11rem;
+	color: #000;
+}
+.pingjia1 li{
+	width: 100%;
+	height: 1.46rem;
+	box-sizing: border-box;
+	padding: 0.30rem 0.16rem;
+	box-sizing: border-box;
+	border-bottom: 2px solid #F5F5F5;
+}
+
+.pingjia1 li .left{
+	width: 0.86rem;
+	height: 0.86rem;
+	border-radius: 50%;
+	background: blue;
+	float: left;
+	overflow: hidden;
+}
+.pingjia1 li .left img{
+	width: 0.86rem;
+	height: 0.86rem;
+}
+.pingjia1 li .center{
+	width: 3.74rem;
+	height: 0.86rem;
+	margin-left: 0.10rem;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.pingjia1 li .center .hehe{
+	width: 3.74rem;
+	height: 0.26rem;
+}
+.pingjia1 li .center .h1 span{
+	width: 1rem;
+	display: block;
+	font-size: 0.20rem;
+	line-height: 0.26rem;
+	color: #000;
+	float: left;
+}
+.pingjia1 li .center .h1 img{
+	width: 1.0rem;
+	height: 0.20rem;
+	margin:0.03rem 0 0 0.1rem;
+	float: left;
+}
+.pingjia1 li .center .h2 span{
+	display: block;
+	font-size: 0.16rem;
+	line-height: 0.26rem;
+	color: #9D9D9D;
+	float: left;
+}
+.pingjia1 li .center .h2 i{
+	display: block;
+	font-size: 0.16rem;
+	color: #00A0E9;
+	float: left;
+	line-height: 0.26rem;
+}
+.pingjia1 li .center .h3 span{
+	display: block;
+	font-size: 0.16rem;
+	line-height: 0.26rem;
+	color: #9D9D9D;
+}
+.pingjia1 li .right{
+	width: 2.00rem;
+	height: 0.86rem;
+	float:right;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.pingjia1 li .right .box{
+	width: 2.00rem;
+	height: 0.22rem;
+
+}
+.pingjia1 li .right .box span{
+	display: block;
+	font-size: 0.18rem;
+	color:#9D9D9D ;
+	line-height: 0.22rem;
+	float: right;
+}
+.pingjia1 li .right .box .tx{
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+.pingjia1 li .right .box .tx a{
+	font-size: 0.18rem;
+	line-height: 0.22rem;
+	float: right;
+	color:#9D9D9D 
+}
+
+/* 顾客评价结束 */
+.haha1{
+	width: 100%;
+	height: 1rem;
+}
+/* 底部 */
+.biaoshi{
+	width: 7.50rem;
+	height: 0.98rem;
+	background-color:#C4D5F8;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	box-sizing: border-box;
+	padding-left: 0.24rem;
+}
+
+.biaoshi .left{
+	width: 1.27rem;
+	height: 0.98rem;
+	float: left;
+}
+.biaoshi .left img{
+	width: 1.27rem;
+	height: 0.98rem;
+}
+.biaoshi .center{
+	width: 1.57rem;
+	height: 0.98rem;
+	float: left;
+}
+.biaoshi .center p{
+	width: 1.57rem;
+	height: 0.49rem;
+}
+.biaoshi .center .tt{
+	color: #000;
+	font-size: 0.26rem;
+	line-height: 0.49rem;
+}
+.biaoshi .center .tt1{
+	font-size: 0.20rem;	
+	color: #000;
+	line-height: 0.49rem;
+}
+.biaoshi .right{
+	width: 2.09rem;
+	height: 0.98rem;
+	background: #CDA3E9;
+	float: right;
+}
+.biaoshi .right span{
+	display: block;
+	color: #5C4869;
+	font-size: 0.20rem;
+	text-align: center;
+	line-height:0.98rem; 
+}
